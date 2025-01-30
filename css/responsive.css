@@ -1,0 +1,288 @@
+@media all and (max-width:1799px) {}
+
+@media all and (max-width:1599px) {}
+
+@media all and (max-width:1399px) {}
+
+@media all and (max-width:1199px) {
+    .features-info-para {
+        padding: 50px 0;
+    }
+
+    .features-info {
+        width: 100% !important;
+    }
+}
+
+@media all and (max-width:991px) {
+    h3 {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    .section-bottom{
+        padding-bottom: 100px;
+    }
+
+    h2 {
+        font-size: 50px !important;
+        line-height: 58px !important;
+    }
+
+    section{
+        padding: 50px 0;
+        scroll-margin-top: 89px;
+    }
+    footer{
+        scroll-margin-top: 89px;
+    }
+    .footer-main {
+        padding: 80px 0;
+    }
+
+    body {
+        padding-top: 89px;
+    }
+
+    .banner-main-div {
+        min-height: calc(89px - 100dvh);
+    }
+
+    .features-info-inner p {
+        font-size: 16px;
+    }
+
+    .navbar-toggler {
+        display: flex;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 20px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-btn-box {
+        justify-content: end;
+    }
+
+    .navbar-toggler {
+        width: 36px;
+    }
+
+    .navbar-toggler span {
+        height: 4px;
+    }
+
+    .navbar {
+        padding: 30px 0;
+    }
+
+    .features-btn-box {
+        gap: 22px;
+    }
+
+    .how-works button {
+        padding: 0;
+    }
+
+    .banner-heading h1 .h1-span {
+        width: unset;
+    }
+
+    .banner-heading h1 {
+            font-size: 68px;
+                line-height: 71px;
+    }
+
+    .banner-para {
+        padding: 30px 0;
+        width: 100% !important;
+    }
+        .banner-big-img:before, .banner-big-img:after {
+            content: unset;
+        }
+
+}
+
+@media all and (max-width:767px) {
+    .section-bottom {
+        padding-bottom: 50px;
+    }
+        .caring-heading h2{
+            padding-top: 0;
+        }
+
+    .banner-heading h1 {
+        font-size: 53px;
+        line-height: 60px;
+    }
+        .banner-img-info p{
+            padding-bottom: 0;
+        }
+
+    .expert-img {
+        padding: 0;
+    }
+
+    .same-h3 {
+        padding-bottom: 10px;
+    }
+
+    .expert-heading h2,
+    .expert-heading p {
+        width: 100% !important;
+    }
+
+    .section-top {
+        padding-top: 50px;
+    }
+
+    .expert-info-text.service-info-inner:first-child {
+        padding-bottom: 30px;
+    }
+
+    .features-info-para {
+        padding: 30px 0;
+    }
+
+    section{
+        padding: 30px 0;
+    }
+    .footer-main {
+        padding: 50px 0;
+    }
+
+    h3 {
+        font-size: 20px !important;
+        line-height: 25px !important;
+    }
+
+    h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .faq-heading-box {
+        padding-bottom: 50px;
+    }
+
+    .caring-box {
+        flex-direction: column;
+    }
+
+    .faq-main-div .accordion-button {
+        padding: 20px;
+        font-size: 20px !important;
+    }
+
+    .caring-right-box,
+    .caring-left-box {
+        max-width: 100%;
+    }
+
+    .faq-heading-box h2 {
+        width: 100% !important;
+    }
+
+    .faq-main-div .accordion-body {
+        width: 100% !important;
+        padding: 20px;
+    }
+
+    .caring-heading h2 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .caring-left-box {
+        flex-direction: column;
+    }
+
+    .caring-img,
+    .caring-years {
+        max-width: 100%;
+    }
+
+    .footer-data-main {
+        flex-direction: column;
+    }
+
+    .need-help-box {
+        padding: 20px;
+    }
+
+    .need-help-box p {
+        max-width: 100%;
+    }
+
+    .footer-links h4 {
+        padding-bottom: 14px;
+    }
+
+    .footer-data-main {
+        padding: 50px 0;
+    }
+
+    .copy-right {
+        padding-top: 50px;
+    }
+
+    .features-btn-box {
+        gap: 25px;
+    }
+
+    .service-info .service-info-inner {
+        padding-bottom: 30px;
+    }
+
+    .caring-year-text p {
+        padding-top: 10px;
+    }
+
+}
+
+@media all and (max-width:575px) {
+    .how-works p {
+        width: 100% !important;
+        /* white-space: nowrap; */
+    }
+
+    .service-info-img {
+        height: unset;
+    }
+
+    .how-works button {
+        padding: 0;
+    }
+
+    .features-btn-box {
+        gap: 15px;
+    }
+
+    .service-info .service-info-inner {
+        max-width: 100%;
+    }
+
+    .service-info .service-info-inner:nth-last-child(2) {
+        padding-bottom: 30px;
+    }
+
+    .year-box span {
+        min-width: unset;
+    }
+
+    .banner-btn button {
+        max-width: 565px;
+        width: 100%;
+    }
+
+}
